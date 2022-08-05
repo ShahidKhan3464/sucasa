@@ -1,0 +1,242 @@
+@media screen and (max-width: 991px) {
+    .hero {
+        padding-bottom: 0;
+    }
+
+    .hero .image {
+        max-width: initial;
+    }
+
+    .hero .text h6 {
+        margin-top: 2rem;
+        max-width: 500px;
+    }
+
+    .hero .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero .image .tabs {
+        position: unset;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tab .data input {
+        font-size: 11px;
+    }
+
+    .tabs button {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%;
+        height: 100px;
+    }
+
+    .standard .standard-item {
+        margin: auto;
+    }
+
+    .heading .slider {
+        flex-wrap: nowrap;
+    }
+
+    .discover-underground .image {
+        max-width: initial;
+    }
+
+    .discover-underground .image::before {
+        right: 25px;
+    }
+
+    .luxury-hotel .image {
+        max-width: initial;
+    }
+
+    .luxury-hotel .right h6 {
+        margin-top: 2rem;
+    }
+
+    .popular-hotel .card {
+        margin: 10px;
+    }
+
+    .footer .row>* {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading p {
+        font-size: 14px;
+    }
+
+    .luxury-hotel .right .data {
+        flex-wrap: nowrap;
+    }
+
+    .popular-hotel .flex h6 {
+        font-size: 37px;
+    }
+
+    .popular-hotel .flex button {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header .navs {
+        padding-bottom: 50px;
+    }
+
+    .header .navs .logo {
+        max-width: 100px;
+    }
+
+    .navs .profile {
+        max-width: 180px;
+    }
+
+    .hero .text {
+        padding: 20px 10px;
+    }
+
+    .hero .text h6 {
+        font-size: 30px;
+    }
+
+    .hero .text p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .hero .image {
+        height: 550px;
+    }
+
+    .hero .image .tabs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero .tabs .data h6 {
+        font-size: 18px;
+    }
+
+    .hero .tabs button {
+        height: 70px;
+    }
+
+    .tab .data input {
+        font-size: 11px;
+    }
+
+    .tabs button {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .standard .title h6 {
+        font-size: 30px;
+    }
+
+    .standard .standard-items {
+        justify-content: center;
+    }
+
+    .suggested-rooms .title h6 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .suggested-rooms .heading {
+        flex-wrap: wrap;
+    }
+
+    .heading p {
+        font-size: 15px;
+    }
+
+    .swiper .room {
+        transform: translate(5%, 250%);
+    }
+
+    .discover {
+        overflow: hidden;
+    }
+
+    .discover .discover-underground {
+        padding-bottom: 0;
+    }
+
+    .discover .title h6 {
+        font-size: 30px;
+    }
+
+    .discover-underground .left h6 {
+        font-size: 35px;
+    }
+
+    .discover-underground .left p {
+        font-size: 15px;
+    }
+
+    .discover-underground .image::before {
+        height: 200px;
+        right: -15px;
+        bottom: 50px;
+    }
+
+    .luxury-hotel {
+        padding-top: 60px;
+    }
+
+    .luxury-hotel .right h6 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .luxury-hotel .right .data h6 {
+        font-size: 25px;
+    }
+
+    .luxury-hotel .right .data p {
+        font-size: 12px;
+    }
+
+    .luxury-hotel .right p {
+        font-size: 15px;
+    }
+
+    .luxury-hotel .right .data {
+        max-width: 380px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .popular-hotel .flex h6 {
+        font-size: 20px;
+    }
+
+    .popular-hotel .flex button {
+        font-size: 12px;
+        height: 35px;
+        width: 80px;
+    }
+
+    .popular-hotel .card {
+        margin-bottom: 1rem;
+    }
+
+    .popular-hotel .card .card-body h6 {
+        font-size: 18px;
+    }
+
+    .popular-hotel .card .card-text p {
+        font-size: 12px;
+    }
+
+    .footer .upper-footer input {
+        margin-bottom: 2rem;
+    }
+}

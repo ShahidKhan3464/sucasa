@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <title>Sucasa</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navs">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="logo">
+                </div>
+                <div class="profile">
+                    <img src="assets/images/icon.png" alt="icon">
+                    <div class="dropdown">
+                        <p class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            David Smith
+                        </p>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Create Listing</a></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <div class="tabs">
+                            <div class="tab">
+                                <div class="icon">
+                                    <img src="assets/images/location.png" alt="location">
+                                </div>
+                                <div class="data">
+                                    <h6>Location</h6>
+                                    <input type="text" placeholder="United States">
+                                </div>
+                            </div>
+
+                            <div class="tab">
+                                <div class="icon">
+                                    <img src="assets/images/checkIn.png" alt="checkIn">
+                                </div>
+                                <div class="data">
+                                    <h6>Check in</h6>
+                                    <input type="date" placeholder="10 Jun 2021">
+                                </div>
+                            </div>
+
+                            <div class="tab">
+                                <div class="icon">
+                                    <img src="assets/images/checkOut.png" alt="checkout">
+                                </div>
+                                <div class="data">
+                                    <h6>Check out</h6>
+                                    <input type="date" placeholder="15 Jun 2021">
+                                </div>
+                            </div>
+
+                            <div class="tab">
+                                <div class="icon">
+                                    <img src="assets/images/room.png" alt="room">
+                                </div>
+                                <div class="data">
+                                    <h6>Rooms</h6>
+                                    <input type="text" placeholder="1 room, 2 guests">
+                                </div>
+                            </div>
+
+                            <button class="searchBtn">
+                                <img src="assets/images/search.png" alt="search">
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text">
+                        <div class="title">
+                            <h6>Find Your Best Hotel for Deals</h6>
+                        </div>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form by injected humour.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="standard">
+        <div class="title">
+            <h6>The Sucase Standard</h6>
+        </div>
+        <div class="container">
+            <div class="standard-items">
+                <div class="standard-item">
+                    <div class="image">
+                        <img src="assets/images/image 1.png" alt="...">
+                    </div>
+                    <h6>Word From Anywhere</h6>
+                    <p>Optimal flexiblity to work remotely</p>
+                </div>
+
+                <div class="standard-item">
+                    <div class="image">
+                        <img src="assets/images/transparent.png" alt="...">
+                    </div>
+                    <h6>Transparent Pricing</h6>
+                    <p>Low fees & no surprises at checkout</p>
+                </div>
+
+                <div class="standard-item">
+                    <div class="image">
+                        <img src="assets/images/image 2.png" alt="...">
+                    </div>
+                    <h6>Premium Properties</h6>
+                    <p>Curated By Sucasa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="suggested-rooms">
+        <div class="container">
+            <div class="title">
+                <h6>Suggested Rooms</h6>
+            </div>
+            <div class="heading">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration.
+                </p>
+                <div class="slider">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box-1">
+                            <div class="room">
+                                <h6>Luxe Room</h6>
+                                <div class="detail">
+                                    <span class="location">United Kingdom</span>
+                                    <p class="price">$89</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-2">
+                            <div class="room">
+                                <h6>Luxe Room</h6>
+                                <div class="detail">
+                                    <span class="location">United Kingdom</span>
+                                    <p class="price">$89</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-3">
+                            <div class="room">
+                                <h6>Luxe Room</h6>
+                                <div class="detail">
+                                    <span class="location">United Kingdom</span>
+                                    <p class="price">$89</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-3">
+                            <div class="room">
+                                <h6>Luxe Room</h6>
+                                <div class="detail">
+                                    <span class="location">United Kingdom</span>
+                                    <p class="price">$89</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-3">
+                            <div class="room">
+                                <h6>Luxe Room</h6>
+                                <div class="detail">
+                                    <span class="location">United Kingdom</span>
+                                    <p class="price">$89</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-3">
+                            <div class="room">
+                                <h6>Luxe Room</h6>
+                                <div class="detail">
+                                    <span class="location">United Kingdom</span>
+                                    <p class="price">$89</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="discover">
+        <div class="title">
+            <h6>Discover our History</h6>
+        </div>
+        <div class="discover-underground">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="left">
+                            <h6>Discover our underground</h6>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.
+                            </p>
+                            <button class="startBtn">Start Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image">
+                            <img src="assets/images/discover.png" alt="discover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="luxury-hotel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img src="assets/images/luxury.png" alt="luxury-hotel">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right">
+                        <h6>Finest Luxury Hotels & Resort</h6>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                        <div class="data">
+                            <div class="quantity">
+                                <h6>120K+</h6>
+                                <p>Website User</p>
+                            </div>
+
+                            <div class="quantity">
+                                <h6>110K+</h6>
+                                <p>Happy Clients</p>
+                            </div>
+
+                            <div class="quantity">
+                                <h6>20K+</h6>
+                                <p>Active Users</p>
+                            </div>
+
+                            <div class="quantity">
+                                <h6>8Y+</h6>
+                                <p>Company Year</p>
+                            </div>
+                        </div>
+                        <button class="exploreBtn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popular-hotel">
+        <div class="container">
+            <div class="flex">
+                <h6>Out most popular Hotels</h6>
+                <button>View All</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="assets/images/regenids.png" class="card-img-top" alt="regenids">
+                        <div class="card-body">
+                            <h6 class="card-title">Hotel Regenids Park</h6>
+                            <div class="card-text">
+                                <img src="assets/images/group.png" alt="group">
+                                <p>Ujung Genteng, Sukabumi</p>
+                            </div>
+                            <div class="rating">
+                                <div class="icons">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="reviews">
+                                    <p>4.8</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <h6>$230/day</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="assets/images/bridge.png" class="card-img-top" alt="bridge">
+                        <div class="card-body">
+                            <h6 class="card-title">London Bridge Hotel</h6>
+                            <div class="card-text">
+                                <img src="assets/images/group.png" alt="group">
+                                <p>Ujung Genteng, Sukabumi</p>
+                            </div>
+                            <div class="rating">
+                                <div class="icons">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="reviews">
+                                    <p>4.8</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <h6>$230/day</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="assets/images/bridge2.png" class="card-img-top" alt="bridge2">
+                        <div class="card-body">
+                            <h6 class="card-title">London Bridge Hotel</h6>
+                            <div class="card-text">
+                                <img src="assets/images/group.png" alt="group">
+                                <p>Ujung Genteng, Sukabumi</p>
+                            </div>
+                            <div class="rating">
+                                <div class="icons">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="reviews">
+                                    <p>4.8</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <h6>$230/day</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="upper-footer">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="image">
+                            <img src="http://sucasa.zaptatechnologies.com/public/assets/images/whiteLogo.svg"
+                                alt="Sucasa">
+                        </div>
+                        <div class="description">
+                            <p>
+                                Nor again is there anyone who loves or pursues or desires to obtain pain of itself.Nor
+                                again is there anyone who loves or pursues or desires to obtain pain of itself.
+                            </p>
+                        </div>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+
+                    <div class="col">
+                        <h6>Home</h6>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#home">Features</a></li>
+                            <li><a href="#home">FAQs</a></li>
+                            <li><a href="#home">Reviews</a></li>
+                            <li><a href="#home">Stories</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h6>Help</h6>
+                        <ul>
+                            <li><a href="#home">Help Center</a></li>
+                            <li><a href="#home">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h6>Contact Us</h6>
+                        <div class="contact">
+                            <p>+01 234 5684 6545</p>
+                            <p>sucasa@gmail.com</p>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#home"><img src="assets/images/insta.png" alt="insta"></a>
+                            <a href="#home"><img src="assets/images/linkedin.png" alt="linkedin"></a>
+                            <a href="#home"><img src="assets/images/facebook.png" alt="facebook"></a>
+                            <a href="#home"><img src="assets/images/twitter.png" alt="twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="background: white; height: 2px;">
+            <div class="lower-footer">
+                <p>© Copyright 2022 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
